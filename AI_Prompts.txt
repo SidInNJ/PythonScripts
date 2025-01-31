@@ -1,0 +1,77 @@
+For Claude "PDF to CSV Converter Script" (That it provided as a better starting prompt):
+
+        Please provide a Python script that will convert AT&T transactions from a bank statement PDF into a CSV spreadsheet with summary totals.
+        Input Requirements:
+
+        File handling:
+
+        Accept optional input filename as command-line parameter
+        If no filename provided:
+
+        Look for PDF files in current directory
+        If none found, prompt user for filename
+
+
+        Handle encoding issues with UTF-8
+
+
+        PDF Data Extraction:
+
+        Format: Bank statement with columns for Date, Number, Description, Withdrawals, Deposits, Balance
+        Dates appear as MMDDYY format without separators
+        Transaction numbers appear in Description field - don't mistake these for dates
+        Skip header rows containing column names
+        Handle multi-page PDFs
+
+
+        Data Processing:
+
+        Convert dates to MM/DD/YYYY format
+        Sort by:
+
+        Description (alphabetically)
+        Date (chronologically ascending)
+
+
+        Group similar transactions:
+
+        Primary grouping: Identical descriptions
+        Secondary grouping: Descriptions with matching first two words
+        Skip single transactions with no matches in summaries
+
+
+
+
+        Summary Totals:
+
+        Add blank line after transactions
+        For each group of similar transactions show:
+
+        Label indicating if exact or partial match
+        Description
+        Number of transactions in group
+        Total withdrawals
+        Total deposits
+
+
+        Sort summaries:
+
+        Exact matches first
+        Partial matches second
+
+
+
+
+        Output:
+
+        Save as CSV with same base filename
+        Include both transactions and summaries
+        Print summary totals to console in readable format
+        Format numbers with commas and 2 decimal places
+
+
+
+        Dependencies:
+
+        pdfplumber for PDF extraction
+        pandas for data processing

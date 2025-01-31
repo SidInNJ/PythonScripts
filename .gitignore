@@ -1,0 +1,16 @@
+## Lists files not in repository including those ignored by .gitignore:
+# git status --untracked-files --ignored
+
+#Don't show the ones that are ignored by .gitignore:
+# git status --untracked-files
+
+InputFiles/*.*
+Obsolete/*.*
+TestDocs/*.*
+resized_images/*.*
+
+*.pdf
+*.jpg
+*.jpeg
+*.png
+

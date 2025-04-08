@@ -43,7 +43,7 @@ def combine_pdfs(folder_path, output_filename="combined.pdf"):
 
 # Example usage
 if __name__ == "__main__":
-    folder_path = input("Enter the folder path containing PDFs: ").strip()
+    folder_path = input("Enter the folder path containing PDFs (default .): ").strip() or "."
     output_filename = input("Enter the name for the combined PDF (default: combined.pdf): ").strip() or "combined.pdf"
     combine_pdfs(folder_path, output_filename)
 

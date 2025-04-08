@@ -5,11 +5,14 @@ from reportlab.lib.pagesizes import letter
 from reportlab.lib.utils import ImageReader
 import math
 from collections import defaultdict
+import random
+import argparse
 
-def process_images(input_dir, output_pdf, images_per_page=20, target_size=(400, 300)):
+def process_images(input_dir, output_pdf, random_mode=False, images_per_page=20, target_size=(400, 300)):
     """
     Combine multiple resized images onto PDF pages with captions.
     Sort by first name, except group same last names together.
+    In random mode, shuffle images and omit captions.
     """
     
     # Get image files and parse names
@@ -29,23 +32,27 @@ def process_images(input_dir, output_pdf, images_per_page=20, target_size=(400, 
     # Process groups and singles
     final_files = []
     
-    # Add singles sorted by first name
-    singles.sort(key=lambda x: x[1])
-    
-    # Process last name groups
-    grouped = []
-    for last_name, group in last_name_groups.items():
-        if len(group) > 1:  # Only group if multiple with same last name
-            group.sort(key=lambda x: x[1])  # Sort by first name within group
-            grouped.extend(group)
-        else:
-            singles.extend(group)  # Add to singles if only one with that last name
-            
-    # Sort singles by first name
-    singles.sort(key=lambda x: x[1])
-    
-    # Combine lists: singles first (sorted by first name), then grouped families
-    final_files = [x[0] for x in singles] + [x[0] for x in grouped]
+    if random_mode:
+        # In random mode, just get all files and shuffle them
+        all_files = [x[0] for x in singles]
+        for group in last_name_groups.values():
+            all_files.extend([x[0] for x in group])
+        random.shuffle(all_files)
+        final_files = all_files
+    else:
+        # Normal sorting mode
+        singles.sort(key=lambda x: x[1])
+        
+        grouped = []
+        for last_name, group in last_name_groups.items():
+            if len(group) > 1:
+                group.sort(key=lambda x: x[1])
+                grouped.extend(group)
+            else:
+                singles.extend(group)
+                
+        singles.sort(key=lambda x: x[1])
+        final_files = [x[0] for x in singles] + [x[0] for x in grouped]
     
     # Create PDF
     c = canvas.Canvas(output_pdf, pagesize=letter)
@@ -89,10 +96,11 @@ def process_images(input_dir, output_pdf, images_per_page=20, target_size=(400, 
                               width=img_width, height=img_height,
                               preserveAspectRatio=True)
                     
-                    # Add caption
-                    caption = os.path.splitext(img_file)[0]
-                    c.setFont("Helvetica", 8)
-                    c.drawCentredString(x + img_width/2, y - 10, caption)
+                    # Add caption only if not in random mode
+                    if not random_mode:
+                        caption = os.path.splitext(img_file)[0]
+                        c.setFont("Helvetica", 8)
+                        c.drawCentredString(x + img_width/2, y - 10, caption)
                     
                     os.remove(temp_path)
                     
@@ -102,7 +110,7 @@ def process_images(input_dir, output_pdf, images_per_page=20, target_size=(400, 
                 x += img_width + x_spacing
                 current_image += 1
             
-            y -= img_height + y_spacing + 15
+            y -= img_height + y_spacing + (15 if not random_mode else 5)
             
             if current_image >= len(final_files):
                 break
@@ -112,4 +120,15 @@ def process_images(input_dir, output_pdf, images_per_page=20, target_size=(400, 
     c.save()
 
 if __name__ == "__main__":
-    process_images("./images", "GuatemalaTeam2025.pdf")
+    parser = argparse.ArgumentParser(description='Process images into a PDF grid layout.')
+    parser.add_argument('-R', '--random', action='store_true',
+                        help='Randomize image order and hide names for testing')
+    parser.add_argument('-i', '--input', default='./images',
+                        help='Input directory containing images (default: ./images)')
+    parser.add_argument('-o', '--output', default='CombinedImages.pdf',
+                        help='Output PDF filename (default: CombinedImages.pdf)')
+    
+    args = parser.parse_args()
+    
+    process_images(args.input, args.output, random_mode=args.random)
+

@@ -14,3 +14,14 @@ resized_images/*.*
 *.jpeg
 *.png
 
+Manager2QB/__pycache__
+Manager2QB/manager_decoded
+Manager2QB/manager_exports
+Manager2QB/ObsoleteScripts
+Manager2QB/quickbooks_import
+*.csv
+*.manager
+Manager2QB/SalesInvooices
+Manager2QB/transaction_analysis.txt
+Manager2QB/QBooks_Import.*
+

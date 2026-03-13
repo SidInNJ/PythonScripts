@@ -1,0 +1,44 @@
+{
+    "_comment": "Mapping from Manager invoice data to QuickBooks items and accounts. Edit as needed.",
+
+    "account_guid_to_qb_account": {
+        "4d7178e8-0737-4977-b7c1-81c3edd1a9b2": "Rental Income",
+        "86fbd900-5019-4a9c-be23-26a0ba7dd547": "Utilities:Electric-Main",
+        "8929dd1c-3e92-475d-a3cc-75e99d6323af": "Rental Income",
+        "0e7ebea5-e169-4642-9276-b747505c7129": "Rental Income",
+        "0b44f9fc-b54a-4688-8cf7-bed93c4d5b22": "Rental Income",
+        "f40c73e8-5fb2-4e9a-bdba-371d4aa99377": "Rental Income",
+        "92218b6b-0663-4c5f-b887-83a5906a2548": "Bank Service Charges"
+    },
+
+    "description_to_qb_item": {
+        "Rental of Storage":                "Storage",
+        "Storage Rental":                   "Storage",
+        "Rental of Storage, Large CA Room": "Storage200",
+        "Studio Space Rental":              "Art Studio",
+        "Art Studio Rental":                "Art Studio",
+        "Building Rental - Farm Labor Housing": "Building Rental",
+        "Rental of Land":                   "Land Rental",
+        "Ongoing Rental of Land":           "Land Rental",
+        "New Rental of Fields":             "Land Rental",
+        "Land Use - Hunting":               "GunClub",
+        "Reimbursement of Electric Used (kWh)": "Elec kWh Reimburse",
+        "Reimbursement for excess Demand":  "Elec Demand Reimburse",
+        "Bank charge for returned check":   ""
+    },
+
+    "price_to_storage_item": {
+        "25":  "Storage25_2wks",
+        "30":  "Storage",
+        "35":  "Storage35",
+        "45":  "Storage45",
+        "50":  "Storage50",
+        "80":  "Storage",
+        "130": "Storage",
+        "200": "Storage200",
+        "1200": "Storage",
+        "1700": "Storage"
+    },
+
+    "_note_price_to_storage": "For storage invoices, the QB item is refined by unit price. Edit if any are wrong."
+}

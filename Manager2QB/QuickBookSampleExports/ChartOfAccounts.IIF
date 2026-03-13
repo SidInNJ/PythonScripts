@@ -1,0 +1,60 @@
+!HDR	PROD	VER	REL	IIFVER	DATE	TIME	ACCNTNT	ACCNTNTSPLITTIME
+HDR	QuickBooks Pro	Version 22.0D	Release R16P	1	2026-01-29	1769734642	N	0
+!ACCNT	NAME	REFNUM	TIMESTAMP	ACCNTTYPE	OBAMOUNT	DESC	ACCNUM	SCD	BANKNUM	EXTRA	HIDDEN	DELCOUNT	USEID
+ACCNT	Fulton Bank	52	1600044794	BANK	"39,023.18"			1864	2882574		N	0	N
+ACCNT	Saving-Live Oak	48	1581990277	BANK	"25,043.99"	Business Savings Account		1864			N	0	N
+ACCNT	Wells Fargo	41	1579386284	BANK	0.00	Checking at Wells Fargo		1864			N	0	N
+ACCNT	Accounts Receivable	40	1574450436	AR	"17,976.64"	Unpaid or unapplied customer invoices and credits	11000	0			N	0	N
+ACCNT	Inventory Asset	38	1573863688	OCASSET	0.00	Costs of inventory purchased for resale	12100	1870		INVENTORYASSET	N	0	N
+ACCNT	Undeposited Funds	42	1579393693	OCASSET	0.00	"Funds received, but not yet deposited to a bank account"	12000	0		UNDEPOSIT	N	0	N
+ACCNT	Accumulated Depreciation	5	1573784235	FIXASSET	0.00	"Accumulated depreciation on equipment, buildings and improvements"	17000	1873			N	0	N
+ACCNT	Furniture and Equipment	4	1573784235	FIXASSET	0.00	Furniture and equipment with useful life exceeding one year	15000	1873			N	0	N
+ACCNT	Accounts Payable	43	1580314753	AP	0.00	Unpaid or unapplied vendor bills or credits	20000	0			N	0	N
+ACCNT	Republic Bank Credit Card	54	1641949228	CCARD	0.00	Credit card with Republic		1888	4164 2300 3000 3252		N	0	N
+ACCNT	Opening Balance Equity	3	1573784235	EQUITY	"-32,794.58"	Opening balances during setup post to this account. The balance of this account should be zero after completing your setup	30000	0		OPENBAL	N	0	N
+ACCNT	Partner 1 Draws	34	1573784235	EQUITY	0.00	Monies taken out of the business by partner 1	30900	0			N	0	N
+ACCNT	Partner 1 Equity	33	1573784235	EQUITY	0.00	Equity for partner 1	31000	0			N	0	N
+ACCNT	Partner 2 Draws	36	1573784235	EQUITY	0.00	Monies taken out of the business by partner 2	31100	0			N	0	N
+ACCNT	Partner 2 Equity	35	1573784235	EQUITY	0.00	Equity for partner 2	31200	0			N	0	N
+ACCNT	Retained Earnings	37	1573784235	EQUITY	0.00	Undistributed earnings of the business	32000	0		RETEARNINGS	N	0	N
+ACCNT	Insurance Proceeds	60	1736901418	INC	-908.50	"When the insurance pays more than the repair cost, extra goes here."		1629			N	0	N
+ACCNT	Reimbursement	50	1588810593	INC	-882.24	Reimbursement for expense that should not have been the farm's.		1629			N	0	N
+ACCNT	Rental Income	6	1573784235	INC	"-237,809.50"	"Rents received for buildings, grazing lands, or rented equipment"	47400	1629			N	0	N
+ACCNT	Uncategorized Income	51	1591040962	INC	-35.00	Income not categorized elsewhere	49900	0		UNCATINC	N	0	N
+ACCNT	Uncategorized Income:Scrap Yard Proceeds	56	1673656254	INC	-45.35	For scrap metal delivered to a scrap yard		1629			N	0	N
+ACCNT	Cost of Goods Sold	39	1573863688	COGS	0.00	Costs of items purchased and then sold to customers	50000	1634		COGS	N	0	N
+ACCNT	Bank Service Charges	7	1573784235	EXP	27.30	"Bank account service fees, bad check charges and other bank fees"	60400	1740			N	0	N
+ACCNT	Business Licenses and Permits	8	1573784235	EXP	"7,458.33"	"Business licenses, permits, and other business-related fees"	61000	1681			N	0	N
+ACCNT	Charitable Contributions	10	1573784235	EXP	500.00	Contributions to qualifying charitable organizations	61400	1829			N	0	N
+ACCNT	Chemicals Purchased	11	1573784235	EXP	0.00	Costs of chemicals used in farming operations	61500	1740			N	0	N
+ACCNT	Computer and Internet Expenses	12	1573784235	EXP	0.00	"Computer supplies, off-the-shelf software, online fees, and other computer or internet related expenses"	61700	1740			N	0	N
+ACCNT	Custom Hire and Contract Labor	13	1573784235	EXP	0.00	Amount paid to independent contractors (non-employees) for field work.	62300	1740			N	0	N
+ACCNT	Depreciation Expense	14	1573784235	EXP	0.00	"Depreciation on equipment, buildings and improvements"	62400	0			N	0	N
+ACCNT	Dues and Subscriptions	15	1573784235	EXP	"1,175.00"	"Subscriptions and membership dues for civic, service, professional, trade organizations"	62500	1740			N	0	N
+ACCNT	Equipment Rental	16	1573784235	EXP	501.51	Rent paid for rented equipment used for business	62600	1672			N	0	N
+ACCNT	"Gasoline, Fuel and Oil"	17	1573784235	EXP	"2,982.18"	"Gasoline, fuel or oil used for farm machinery"	63200	1740			N	0	N
+ACCNT	Insurance Expense	18	1573784235	EXP	0.00	Insurance expenses	63300	1740			N	0	N
+ACCNT	Insurance Expense:General Liability Insurance	19	1573784235	EXP	"27,833.26"	General liability insurance premiums	63310	1740			N	0	N
+ACCNT	"Insurance Expense:Insurance, Vehicle"	47	1580780691	EXP	929.01	"For Tractors, trailers, truck"		3109			N	0	N
+ACCNT	Interest Expense	20	1573784235	EXP	75.00	"Interest payments on business loans, credit card balances, or other business debt"	63400	1682			N	0	N
+ACCNT	Miscellaneous Expense	21	1573784235	EXP	165.38	Miscellaneous expenses not categorized elsewhere. Use memo field to describe business purpose	64700	1740			N	0	N
+ACCNT	Office Supplies	22	1573784235	EXP	179.25	Office supplies expense	64900	1740			N	0	N
+ACCNT	Postage and Delivery	23	1573784235	EXP	0.00	"Postage, courier, and pickup and delivery services"	66500	1740			N	0	N
+ACCNT	Professional Fees	24	1573784235	EXP	"15,100.00"	Payments to accounting professionals and attorneys for accounting or legal services	66700	1740			N	0	N
+ACCNT	Reconciliation Discrepancies	57	1694008439	EXP	0.00	Discrepancies between bank statements and company records	66900	0			N	0	N
+ACCNT	Rent Expense	25	1573784235	EXP	0.00	Rent paid for company offices or other structures used in the business	67100	1672			N	0	N
+ACCNT	Repairs and Maintenance	26	1573784235	EXP	"23,911.95"	Incidental repairs and maintenance of business assets that do not add to the value or appreciably prolong its life	67200	1668			N	0	N
+ACCNT	Rodent Control	55	1642300861	EXP	417.65	Usually Cat Food		0			N	0	N
+ACCNT	SECURITY	58	1715613538	EXP	292.12	Security cameras on property		0			N	0	N
+ACCNT	Small Tools and Equipment	27	1573784235	EXP	164.94	Purchases of small tools or equipment not classified as fixed assets	67800	1740			N	0	N
+ACCNT	Taxes - Property	28	1573784235	EXP	"101,009.17"	"Taxes paid on property owned by the business, franchise taxes, excise taxes, etc."	68000	0			N	0	N
+ACCNT	Tractor and Vehicle expenses	9	1573784235	EXP	"5,026.79"	"Fuel, oil, repairs, and other Tractor, trailer and truck maintenance"	61100	1740			N	0	N
+ACCNT	Uncategorized Expenses	44	1580314753	EXP	0.00	Expenses not categorized elsewhere	69800	0		UNCATEXP	N	0	N
+ACCNT	Utilities	29	1573784235	EXP	0.00	"Water, electricity, garbage, and other basic utilities expenses"	68600	1740			N	0	N
+ACCNT	Utilities:Electric-Angel	46	1580779594	EXP	305.14	Angels old house		3121			N	0	N
+ACCNT	Utilities:Electric-Main	45	1580779513	EXP	"7,471.37"	Electric - Meter in the Packing House		3121			N	0	N
+ACCNT	Interest Income	30	1573784235	EXINC	"-2,043.61"	Interest earned on bank accounts and loans	70200	1629			N	0	N
+ACCNT	Interest Income:Trial Deposit	53	1611882401	EXINC	-0.38	Trial deposit to prove account access		0			N	0	N
+ACCNT	Morgan Stanley	49	1587062903	EXINC	"-2,550.00"	Investment dividends		0			N	0	N
+ACCNT	Proceeds from Sale of Assets	31	1573784235	EXINC	-500.00	Monies received from sale of fixed assets	70500	1629			N	0	N
+ACCNT	Ask My Accountant	32	1573784235	EXEXP	0.00	"Transactions to be discussed with accountant, consultant, or tax preparer"	80000	0			N	0	N

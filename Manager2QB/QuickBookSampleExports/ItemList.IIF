@@ -1,0 +1,39 @@
+!HDR	PROD	VER	REL	IIFVER	DATE	TIME	ACCNTNT	ACCNTNTSPLITTIME
+HDR	QuickBooks Pro	Version 22.0D	Release R16P	1	2026-01-29	1769734692	N	0
+!CUSTITEMDICT	INDEX	LABEL	INUSE
+!ENDCUSTITEMDICT
+CUSTITEMDICT	0		N
+CUSTITEMDICT	1		N
+CUSTITEMDICT	2		N
+CUSTITEMDICT	3		N
+CUSTITEMDICT	4		N
+CUSTITEMDICT	5		N
+CUSTITEMDICT	6		N
+CUSTITEMDICT	7		N
+CUSTITEMDICT	8		N
+CUSTITEMDICT	9		N
+CUSTITEMDICT	10		N
+CUSTITEMDICT	11		N
+CUSTITEMDICT	12		N
+CUSTITEMDICT	13		N
+CUSTITEMDICT	14		N
+ENDCUSTITEMDICT
+!INVITEM	NAME	REFNUM	TIMESTAMP	INVITEMTYPE	DESC	PURCHASEDESC	ACCNT	ASSETACCNT	COGSACCNT	QNTY	QNTY	PRICE	COST	TAXABLE	SALESTAXCODE	PAYMETH	TAXVEND	PREFVEND	REORDERPOINT	EXTRA	CUSTFLD1	CUSTFLD2	CUSTFLD3	CUSTFLD4	CUSTFLD5	DEP_TYPE	ISPASSEDTHRU	HIDDEN	DELCOUNT	USEID	ISNEW	PO_NUM	SERIALNUM	WARRANTY	LOCATION	VENDOR	ASSETDESC	SALEDATE	SALEEXPENSE	NOTES	ASSETNUM	COSTBASIS	ACCUMDEPR	UNRECBASIS	PURCHASEDATE
+INVITEM	Art Studio	8	1579393465	SERV	Studio space rental	Studio space rental	Rental Income					300.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Building Rental	17	1702415334	SERV	Farm Labor Housing	Farm Labor Housing	Rental Income					"10,000.00"	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	GunClub	6	1579392528	SERV	JJ Gun Club Rental	JJ Gun Club Rental	Rental Income					600.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Land Rental	9	1579708810	SERV	Base cost but may vary with tax increases	Base cost but may vary with tax increases	Rental Income					"8,800.00"	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Outstanding	2	1578186162	SERV	Outstanding Balance as of 12/31/2019	Outstanding Balance as of 12/31/2019	Rental Income					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Reimburse	11	1588810599	SERV	Reimbursement for something the farm paid for that should have been paid for by another.	Reimbursement for something the farm paid for that should have been paid for by another.	Reimbursement					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Storage	7	1579392772	SERV	Storage Rental	Storage Rental	Rental Income					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Storage200	4	1579384139	SERV	Storage	Storage	Rental Income					200.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Storage25_2wks	1	1578185468	SERV	"Storage $50/Month, or $25/2 weeks"	"Storage $50/Month, or $25/2 weeks"	Rental Income					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Storage45	3	1578186237	SERV	Storage	Storage	Rental Income					45.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Storage50	5	1579384176	SERV	Storage	Storage	Rental Income					50.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Sale of old Equipment	19	1734116174	PART	Sold old equipment we don't need anymore.	Sold old equipment we don't need anymore.	Proceeds from Sale of Assets					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Elec Demand Reimburse	16	1611679644	OTHC	"Reimbursement for Electric, Above Farm Demand"	"Reimbursement for Electric, Above Farm Demand"	Utilities:Electric-Main					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Elec kWh Reimburse	15	1611679549	OTHC	Reimburse of kWh Electric	Reimburse of kWh Electric	Utilities:Electric-Main					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Electric_Demand	13	1600912067	OTHC	Electric Demand charges above \nfarm demand	Electric Demand charges above \nfarm demand	Reimbursement					0.00	0.00	N												0	N	Y	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Electric_kWh	12	1600911800	OTHC	"Electric Used, measured in kWh"	"Electric Used, measured in kWh"	Reimbursement					0.00	0.00	N												0	N	Y	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Reimbursed Maint/Repair	14	1611679295	OTHC	Maint/Repair expense that someone reimbursed us for.	Maint/Repair expense that someone reimbursed us for.	Repairs and Maintenance					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Wood wagon	18	1729541522	OTHC	Sale of wood wagon	Sale of wood wagon	Uncategorized Income					500.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	

@@ -1,0 +1,2 @@
+python-docx>=0.8.11
+tqdm>=4.64.0

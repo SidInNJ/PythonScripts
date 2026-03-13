@@ -1,0 +1,68 @@
+!HDR	PROD	VER	REL	IIFVER	DATE	TIME	ACCNTNT	ACCNTNTSPLITTIME
+HDR	QuickBooks Pro	Version 22.0D	Release R16P	1	2026-01-29	1769734671	N	0
+!CUSTNAMEDICT	INDEX	LABEL	CUSTOMER	VENDOR	EMPLOYEE
+!ENDCUSTNAMEDICT
+CUSTNAMEDICT	0		N	N	N
+CUSTNAMEDICT	1		N	N	N
+CUSTNAMEDICT	2		N	N	N
+CUSTNAMEDICT	3		N	N	N
+CUSTNAMEDICT	4		N	N	N
+CUSTNAMEDICT	5		N	N	N
+CUSTNAMEDICT	6		N	N	N
+CUSTNAMEDICT	7		N	N	N
+CUSTNAMEDICT	8		N	N	N
+CUSTNAMEDICT	9		N	N	N
+CUSTNAMEDICT	10		N	N	N
+CUSTNAMEDICT	11		N	N	N
+CUSTNAMEDICT	12		N	N	N
+CUSTNAMEDICT	13		N	N	N
+CUSTNAMEDICT	14		N	N	N
+CUSTNAMEDICT	15		N	N	N
+CUSTNAMEDICT	16		N	N	N
+CUSTNAMEDICT	17		N	N	N
+CUSTNAMEDICT	18		N	N	N
+CUSTNAMEDICT	19		N	N	N
+CUSTNAMEDICT	20		N	N	N
+CUSTNAMEDICT	21		N	N	N
+CUSTNAMEDICT	22		N	N	N
+CUSTNAMEDICT	23		N	N	N
+CUSTNAMEDICT	24		N	N	N
+CUSTNAMEDICT	25		N	N	N
+CUSTNAMEDICT	26		N	N	N
+CUSTNAMEDICT	27		N	N	N
+CUSTNAMEDICT	28		N	N	N
+CUSTNAMEDICT	29		N	N	N
+ENDCUSTNAMEDICT
+!VEND	NAME	REFNUM	TIMESTAMP	PRINTAS	ADDR1	ADDR2	ADDR3	ADDR4	ADDR5	VTYPE	CONT1	CONT2	PHONE1	PHONE2	FAXNUM	EMAIL	NOTE	TAXID	LIMIT	TERMS	NOTEPAD	SALUTATION	COMPANYNAME	FIRSTNAME	MIDINIT	LASTNAME	CUSTFLD1	CUSTFLD2	CUSTFLD3	CUSTFLD4	CUSTFLD5	CUSTFLD6	CUSTFLD7	CUSTFLD8	CUSTFLD9	CUSTFLD10	CUSTFLD11	CUSTFLD12	CUSTFLD13	CUSTFLD14	CUSTFLD15	1099	HIDDEN	DELCOUNT
+VEND	ACH NJ Web Payment	27	1583425252		ACH NJ Web Payment																																					N	N	0
+VEND	Allen's Oil and Propane	32	1588773744		Allen's Oil and Propane																																					N	N	0
+VEND	Carol A. Roberts	38	1594235576		Carol A. Roberts																																					N	N	0
+VEND	Cherry Valley Tractor	64	1685986201		Cherry Valley Tractor																																					N	N	0
+VEND	CitiCard	43	1602888920		CitiCard																																					N	N	0
+VEND	Diamond M Lumber Co.	40	1600125118		Diamond M Lumber Co.																																					N	N	0
+VEND	Enoch Gererd	70	1734120409		Enoch Gererd																																					N	N	0
+VEND	Estate of S. Coles Robrts	45	1605106014		Estate of S. Coles Robrts																																					N	N	0
+VEND	Farm Family	23	1580780603	Farm Family	Farm Family						John Tajc												Farm Family																			N	N	0
+VEND	Frugal Fix-it Fellas	63	1683826911	"Frugal Fix-it Fellas, Inc."	Frugal Fix-it Fellas																		"Frugal Fix-it Fellas, Inc."																			N	N	0
+VEND	Fulton Bank	69	1734107459		Fulton Bank																																					N	N	0
+VEND	Grainger	47	1606752662		Grainger																																					N	N	0
+VEND	Hampton Lakes Emergency Squad	42	1601486017		Hampton Lakes Emergency Squad																																					N	N	0
+VEND	Hampton Lakes Vol. Fire Company	65	1688999775		Hampton Lakes Vol. Fire Company																																					N	N	0
+VEND	Harbor Freight	55	1641954513		Harbor Freight																																					N	N	0
+VEND	Klatzkin & Co	26	1583425183	Klatzkin & Co.	Klatzkin & Co	1670 Whitehorse-Hamilton Sq. Rd.	"Hamilton, NJ 08690"				Arlene		609-890-9189										Klatzkin & Co.																			N	N	0
+VEND	Lowes Business Acct.	37	1591041492		Lowes Business Acct.																																					N	N	0
+VEND	Merrits Gulf Oil	60	1673485935	Gulf Oil Medford (Merrits)	Merrits Gulf Oil	Troy Haines					Troy Haines											Mr.	Merrits Gulf Oil	Troy		Haines																N	N	0
+VEND	NJ Ag Society	30	1587653571		NJ Ag Society	1200 Florence Columbus Rd.	"Bordentown, NJ 08505"																																			N	N	0
+VEND	NJ Farm Bureau	41	1601485934		NJ Farm Bureau																																					N	N	0
+VEND	NJMVC	28	1585078776		NJMVC																																					N	N	0
+VEND	Paul Gerike	48	1609350829																																							N	N	0
+VEND	PSEG	21	1580314753	PSEG	PSE&G	PO Box 14444	"New Brunswick, NJ 08906-4444"	US					1-800-553-7734			pseg.com/myaccount					Angel's house\n500 Eayrestown Rd.		PSEG																			N	N	0
+VEND	Republic Bank	46	1605106766		Republic Bank																																					N	N	0
+VEND	Sears Credit Card	44	1603501624		Sears Credit Card																																					N	N	0
+VEND	State of NJ	52	1628877875		State of NJ																																					N	N	0
+VEND	Tractor Supply	54	1641954442		Tractor Supply																																					N	N	0
+VEND	Visa-Republic Bank Credit Card	49	1612885731		Visa-Republic Bank Credit Card																																					N	N	0
+VEND	Wal-Mart	61	1673658731		Wal-Mart																																					N	N	0
+VEND	Wells Fargo - Carol CC	31	1587653792		Wells Fargo - Carol CC`																																					N	N	0
+VEND	Wells Fargo - Sid CC	24	1580781342	Wells Fargo - Sid CC	Wells Fargo - Sid CC												-6855		"-8,000.00"				Wells Fargo - Sid CC																			N	N	0
+VEND	Wells Fargo -Sidl CC	36	1591041343		Wells Fargo -Sidl CC																																					N	N	0

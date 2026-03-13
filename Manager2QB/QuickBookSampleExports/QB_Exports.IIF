@@ -1,0 +1,208 @@
+!HDR	PROD	VER	REL	IIFVER	DATE	TIME	ACCNTNT	ACCNTNTSPLITTIME
+HDR	QuickBooks Pro	Version 22.0D	Release R16P	1	2026-01-29	1769734413	N	0
+!ACCNT	NAME	REFNUM	TIMESTAMP	ACCNTTYPE	OBAMOUNT	DESC	ACCNUM	SCD	BANKNUM	EXTRA	HIDDEN	DELCOUNT	USEID
+ACCNT	Fulton Bank	52	1600044794	BANK	"39,023.18"			1864	2882574		N	0	N
+ACCNT	Saving-Live Oak	48	1581990277	BANK	"25,043.99"	Business Savings Account		1864			N	0	N
+ACCNT	Wells Fargo	41	1579386284	BANK	0.00	Checking at Wells Fargo		1864			N	0	N
+ACCNT	Accounts Receivable	40	1574450436	AR	"17,976.64"	Unpaid or unapplied customer invoices and credits	11000	0			N	0	N
+ACCNT	Inventory Asset	38	1573863688	OCASSET	0.00	Costs of inventory purchased for resale	12100	1870		INVENTORYASSET	N	0	N
+ACCNT	Undeposited Funds	42	1579393693	OCASSET	0.00	"Funds received, but not yet deposited to a bank account"	12000	0		UNDEPOSIT	N	0	N
+ACCNT	Accumulated Depreciation	5	1573784235	FIXASSET	0.00	"Accumulated depreciation on equipment, buildings and improvements"	17000	1873			N	0	N
+ACCNT	Furniture and Equipment	4	1573784235	FIXASSET	0.00	Furniture and equipment with useful life exceeding one year	15000	1873			N	0	N
+ACCNT	Accounts Payable	43	1580314753	AP	0.00	Unpaid or unapplied vendor bills or credits	20000	0			N	0	N
+ACCNT	Republic Bank Credit Card	54	1641949228	CCARD	0.00	Credit card with Republic		1888	4164 2300 3000 3252		N	0	N
+ACCNT	Opening Balance Equity	3	1573784235	EQUITY	"-32,794.58"	Opening balances during setup post to this account. The balance of this account should be zero after completing your setup	30000	0		OPENBAL	N	0	N
+ACCNT	Partner 1 Draws	34	1573784235	EQUITY	0.00	Monies taken out of the business by partner 1	30900	0			N	0	N
+ACCNT	Partner 1 Equity	33	1573784235	EQUITY	0.00	Equity for partner 1	31000	0			N	0	N
+ACCNT	Partner 2 Draws	36	1573784235	EQUITY	0.00	Monies taken out of the business by partner 2	31100	0			N	0	N
+ACCNT	Partner 2 Equity	35	1573784235	EQUITY	0.00	Equity for partner 2	31200	0			N	0	N
+ACCNT	Retained Earnings	37	1573784235	EQUITY	0.00	Undistributed earnings of the business	32000	0		RETEARNINGS	N	0	N
+ACCNT	Insurance Proceeds	60	1736901418	INC	-908.50	"When the insurance pays more than the repair cost, extra goes here."		1629			N	0	N
+ACCNT	Reimbursement	50	1588810593	INC	-882.24	Reimbursement for expense that should not have been the farm's.		1629			N	0	N
+ACCNT	Rental Income	6	1573784235	INC	"-237,809.50"	"Rents received for buildings, grazing lands, or rented equipment"	47400	1629			N	0	N
+ACCNT	Uncategorized Income	51	1591040962	INC	-35.00	Income not categorized elsewhere	49900	0		UNCATINC	N	0	N
+ACCNT	Uncategorized Income:Scrap Yard Proceeds	56	1673656254	INC	-45.35	For scrap metal delivered to a scrap yard		1629			N	0	N
+ACCNT	Cost of Goods Sold	39	1573863688	COGS	0.00	Costs of items purchased and then sold to customers	50000	1634		COGS	N	0	N
+ACCNT	Bank Service Charges	7	1573784235	EXP	27.30	"Bank account service fees, bad check charges and other bank fees"	60400	1740			N	0	N
+ACCNT	Business Licenses and Permits	8	1573784235	EXP	"7,458.33"	"Business licenses, permits, and other business-related fees"	61000	1681			N	0	N
+ACCNT	Charitable Contributions	10	1573784235	EXP	500.00	Contributions to qualifying charitable organizations	61400	1829			N	0	N
+ACCNT	Chemicals Purchased	11	1573784235	EXP	0.00	Costs of chemicals used in farming operations	61500	1740			N	0	N
+ACCNT	Computer and Internet Expenses	12	1573784235	EXP	0.00	"Computer supplies, off-the-shelf software, online fees, and other computer or internet related expenses"	61700	1740			N	0	N
+ACCNT	Custom Hire and Contract Labor	13	1573784235	EXP	0.00	Amount paid to independent contractors (non-employees) for field work.	62300	1740			N	0	N
+ACCNT	Depreciation Expense	14	1573784235	EXP	0.00	"Depreciation on equipment, buildings and improvements"	62400	0			N	0	N
+ACCNT	Dues and Subscriptions	15	1573784235	EXP	"1,175.00"	"Subscriptions and membership dues for civic, service, professional, trade organizations"	62500	1740			N	0	N
+ACCNT	Equipment Rental	16	1573784235	EXP	501.51	Rent paid for rented equipment used for business	62600	1672			N	0	N
+ACCNT	"Gasoline, Fuel and Oil"	17	1573784235	EXP	"2,982.18"	"Gasoline, fuel or oil used for farm machinery"	63200	1740			N	0	N
+ACCNT	Insurance Expense	18	1573784235	EXP	0.00	Insurance expenses	63300	1740			N	0	N
+ACCNT	Insurance Expense:General Liability Insurance	19	1573784235	EXP	"27,833.26"	General liability insurance premiums	63310	1740			N	0	N
+ACCNT	"Insurance Expense:Insurance, Vehicle"	47	1580780691	EXP	929.01	"For Tractors, trailers, truck"		3109			N	0	N
+ACCNT	Interest Expense	20	1573784235	EXP	75.00	"Interest payments on business loans, credit card balances, or other business debt"	63400	1682			N	0	N
+ACCNT	Miscellaneous Expense	21	1573784235	EXP	165.38	Miscellaneous expenses not categorized elsewhere. Use memo field to describe business purpose	64700	1740			N	0	N
+ACCNT	Office Supplies	22	1573784235	EXP	179.25	Office supplies expense	64900	1740			N	0	N
+ACCNT	Postage and Delivery	23	1573784235	EXP	0.00	"Postage, courier, and pickup and delivery services"	66500	1740			N	0	N
+ACCNT	Professional Fees	24	1573784235	EXP	"15,100.00"	Payments to accounting professionals and attorneys for accounting or legal services	66700	1740			N	0	N
+ACCNT	Reconciliation Discrepancies	57	1694008439	EXP	0.00	Discrepancies between bank statements and company records	66900	0			N	0	N
+ACCNT	Rent Expense	25	1573784235	EXP	0.00	Rent paid for company offices or other structures used in the business	67100	1672			N	0	N
+ACCNT	Repairs and Maintenance	26	1573784235	EXP	"23,911.95"	Incidental repairs and maintenance of business assets that do not add to the value or appreciably prolong its life	67200	1668			N	0	N
+ACCNT	Rodent Control	55	1642300861	EXP	417.65	Usually Cat Food		0			N	0	N
+ACCNT	SECURITY	58	1715613538	EXP	292.12	Security cameras on property		0			N	0	N
+ACCNT	Small Tools and Equipment	27	1573784235	EXP	164.94	Purchases of small tools or equipment not classified as fixed assets	67800	1740			N	0	N
+ACCNT	Taxes - Property	28	1573784235	EXP	"101,009.17"	"Taxes paid on property owned by the business, franchise taxes, excise taxes, etc."	68000	0			N	0	N
+ACCNT	Tractor and Vehicle expenses	9	1573784235	EXP	"5,026.79"	"Fuel, oil, repairs, and other Tractor, trailer and truck maintenance"	61100	1740			N	0	N
+ACCNT	Uncategorized Expenses	44	1580314753	EXP	0.00	Expenses not categorized elsewhere	69800	0		UNCATEXP	N	0	N
+ACCNT	Utilities	29	1573784235	EXP	0.00	"Water, electricity, garbage, and other basic utilities expenses"	68600	1740			N	0	N
+ACCNT	Utilities:Electric-Angel	46	1580779594	EXP	305.14	Angels old house		3121			N	0	N
+ACCNT	Utilities:Electric-Main	45	1580779513	EXP	"7,471.37"	Electric - Meter in the Packing House		3121			N	0	N
+ACCNT	Interest Income	30	1573784235	EXINC	"-2,043.61"	Interest earned on bank accounts and loans	70200	1629			N	0	N
+ACCNT	Interest Income:Trial Deposit	53	1611882401	EXINC	-0.38	Trial deposit to prove account access		0			N	0	N
+ACCNT	Morgan Stanley	49	1587062903	EXINC	"-2,550.00"	Investment dividends		0			N	0	N
+ACCNT	Proceeds from Sale of Assets	31	1573784235	EXINC	-500.00	Monies received from sale of fixed assets	70500	1629			N	0	N
+ACCNT	Ask My Accountant	32	1573784235	EXEXP	0.00	"Transactions to be discussed with accountant, consultant, or tax preparer"	80000	0			N	0	N
+!CUSTITEMDICT	INDEX	LABEL	INUSE
+!ENDCUSTITEMDICT
+CUSTITEMDICT	0		N
+CUSTITEMDICT	1		N
+CUSTITEMDICT	2		N
+CUSTITEMDICT	3		N
+CUSTITEMDICT	4		N
+CUSTITEMDICT	5		N
+CUSTITEMDICT	6		N
+CUSTITEMDICT	7		N
+CUSTITEMDICT	8		N
+CUSTITEMDICT	9		N
+CUSTITEMDICT	10		N
+CUSTITEMDICT	11		N
+CUSTITEMDICT	12		N
+CUSTITEMDICT	13		N
+CUSTITEMDICT	14		N
+ENDCUSTITEMDICT
+!INVITEM	NAME	REFNUM	TIMESTAMP	INVITEMTYPE	DESC	PURCHASEDESC	ACCNT	ASSETACCNT	COGSACCNT	QNTY	QNTY	PRICE	COST	TAXABLE	SALESTAXCODE	PAYMETH	TAXVEND	PREFVEND	REORDERPOINT	EXTRA	CUSTFLD1	CUSTFLD2	CUSTFLD3	CUSTFLD4	CUSTFLD5	DEP_TYPE	ISPASSEDTHRU	HIDDEN	DELCOUNT	USEID	ISNEW	PO_NUM	SERIALNUM	WARRANTY	LOCATION	VENDOR	ASSETDESC	SALEDATE	SALEEXPENSE	NOTES	ASSETNUM	COSTBASIS	ACCUMDEPR	UNRECBASIS	PURCHASEDATE
+INVITEM	Art Studio	8	1579393465	SERV	Studio space rental	Studio space rental	Rental Income					300.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Building Rental	17	1702415334	SERV	Farm Labor Housing	Farm Labor Housing	Rental Income					"10,000.00"	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	GunClub	6	1579392528	SERV	JJ Gun Club Rental	JJ Gun Club Rental	Rental Income					600.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Land Rental	9	1579708810	SERV	Base cost but may vary with tax increases	Base cost but may vary with tax increases	Rental Income					"8,800.00"	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Outstanding	2	1578186162	SERV	Outstanding Balance as of 12/31/2019	Outstanding Balance as of 12/31/2019	Rental Income					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Reimburse	11	1588810599	SERV	Reimbursement for something the farm paid for that should have been paid for by another.	Reimbursement for something the farm paid for that should have been paid for by another.	Reimbursement					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Storage	7	1579392772	SERV	Storage Rental	Storage Rental	Rental Income					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Storage200	4	1579384139	SERV	Storage	Storage	Rental Income					200.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Storage25_2wks	1	1578185468	SERV	"Storage $50/Month, or $25/2 weeks"	"Storage $50/Month, or $25/2 weeks"	Rental Income					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Storage45	3	1578186237	SERV	Storage	Storage	Rental Income					45.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Storage50	5	1579384176	SERV	Storage	Storage	Rental Income					50.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Sale of old Equipment	19	1734116174	PART	Sold old equipment we don't need anymore.	Sold old equipment we don't need anymore.	Proceeds from Sale of Assets					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Elec Demand Reimburse	16	1611679644	OTHC	"Reimbursement for Electric, Above Farm Demand"	"Reimbursement for Electric, Above Farm Demand"	Utilities:Electric-Main					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Elec kWh Reimburse	15	1611679549	OTHC	Reimburse of kWh Electric	Reimburse of kWh Electric	Utilities:Electric-Main					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Electric_Demand	13	1600912067	OTHC	Electric Demand charges above \nfarm demand	Electric Demand charges above \nfarm demand	Reimbursement					0.00	0.00	N												0	N	Y	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Electric_kWh	12	1600911800	OTHC	"Electric Used, measured in kWh"	"Electric Used, measured in kWh"	Reimbursement					0.00	0.00	N												0	N	Y	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Reimbursed Maint/Repair	14	1611679295	OTHC	Maint/Repair expense that someone reimbursed us for.	Maint/Repair expense that someone reimbursed us for.	Repairs and Maintenance					0.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+INVITEM	Wood wagon	18	1729541522	OTHC	Sale of wood wagon	Sale of wood wagon	Uncategorized Income					500.00	0.00	N												0	N	N	0	N	Y								0.00			0.00	0.00	0.00	
+!CTYPE	NAME	REFNUM	TIMESTAMP	HIDDEN
+CTYPE	From advertisement	1	1573784235	N
+CTYPE	Referral	2	1573784235	N
+CTYPE	Retail	3	1573784235	N
+CTYPE	Wholesale	4	1573784235	N
+!CUSTNAMEDICT	INDEX	LABEL	CUSTOMER	VENDOR	EMPLOYEE
+!ENDCUSTNAMEDICT
+CUSTNAMEDICT	0		N	N	N
+CUSTNAMEDICT	1		N	N	N
+CUSTNAMEDICT	2		N	N	N
+CUSTNAMEDICT	3		N	N	N
+CUSTNAMEDICT	4		N	N	N
+CUSTNAMEDICT	5		N	N	N
+CUSTNAMEDICT	6		N	N	N
+CUSTNAMEDICT	7		N	N	N
+CUSTNAMEDICT	8		N	N	N
+CUSTNAMEDICT	9		N	N	N
+CUSTNAMEDICT	10		N	N	N
+CUSTNAMEDICT	11		N	N	N
+CUSTNAMEDICT	12		N	N	N
+CUSTNAMEDICT	13		N	N	N
+CUSTNAMEDICT	14		N	N	N
+CUSTNAMEDICT	15		N	N	N
+CUSTNAMEDICT	16		N	N	N
+CUSTNAMEDICT	17		N	N	N
+CUSTNAMEDICT	18		N	N	N
+CUSTNAMEDICT	19		N	N	N
+CUSTNAMEDICT	20		N	N	N
+CUSTNAMEDICT	21		N	N	N
+CUSTNAMEDICT	22		N	N	N
+CUSTNAMEDICT	23		N	N	N
+CUSTNAMEDICT	24		N	N	N
+CUSTNAMEDICT	25		N	N	N
+CUSTNAMEDICT	26		N	N	N
+CUSTNAMEDICT	27		N	N	N
+CUSTNAMEDICT	28		N	N	N
+CUSTNAMEDICT	29		N	N	N
+ENDCUSTNAMEDICT
+!CUST	NAME	REFNUM	TIMESTAMP	BADDR1	BADDR2	BADDR3	BADDR4	BADDR5	SADDR1	SADDR2	SADDR3	SADDR4	SADDR5	PHONE1	PHONE2	FAXNUM	EMAIL	NOTE	CONT1	CONT2	CTYPE	TERMS	TAXABLE	SALESTAXCODE	LIMIT	RESALENUM	REP	TAXITEM	NOTEPAD	SALUTATION	COMPANYNAME	FIRSTNAME	MIDINIT	LASTNAME	CUSTFLD1	CUSTFLD2	CUSTFLD3	CUSTFLD4	CUSTFLD5	CUSTFLD6	CUSTFLD7	CUSTFLD8	CUSTFLD9	CUSTFLD10	CUSTFLD11	CUSTFLD12	CUSTFLD13	CUSTFLD14	CUSTFLD15	JOBDESC	JOBTYPE	JOBSTATUS	JOBSTART	JOBPROJEND	JOBEND	HIDDEN	DELCOUNT	PRICELEVEL
+CUST	Bendall	12	1574108923	Michelle Bendall	16 Burrs Mill Rd.	"Southampton, NJ 08088"								609-506-3529			m.bendall@comcast.net						N									Michelle		Bendall																		0				N	0	
+CUST	Carol Roberts	66	1697472085																				N	Non																												0				N	0	
+CUST	Coles Roberts	34	1588807805	Coles Roberts															Coles Roberts				N	Non						Mr		Coles		Roberts																		0				Y	0	
+CUST	"Coombs, Jeff"	51	1627647082	Jeff Coombs										609-238-8535			coombsjeffrey89@gmail.com		Jeff Coombs	Dawn			N									Jeff		Coombs																		0				N	0	
+CUST	David Ronan	59	1652829722	David Ronan	5 Raleigh Dr.	"Mt. Laurel, NJ 08054"								616-516-6169	616-516-6173				David Ronan	Stephen Ronan(son)			N							Mr.		David		Ronan																		0				N	0	
+CUST	Dlotman	4	1574108923	Dave Lotman	130 Niagra Lane	"Willingboro, NJ 08046"								609-456-9137									N									Dave		Lotman																		0				N	0	
+CUST	Glotman	5	1574108923	Geoff Lotman	130 Niagra Lane	"Willingboro, NJ 08046"								609-456-5712									N									Geoff		Lotman																		0				N	0	
+CUST	Good Farms	11	1574108923	Good Farms	58 Pemberton Rd.	"Southampton, NJ 08088"								609-381-2869			rsgood57@gmail.com						N						& Tim Mott <timmott05@gmail.com\nAssistant Vice President \nPhone: 609-859-9673\nFax: 609-859-4011		"Good Farms, Inc."	Scott		 Good																		0				N	0	
+CUST	Gower	8	1574108923	Gower Nurseries LLC	384 Eayrestown Road	"Southampton, NJ 08088"								(609) 320-2744			gowernurseries@comcast.net						N								Gower Nurseries	Timothy		Gower																		0				N	0	
+CUST	Graeff	9	1574108923	Gary Graeff	1313 Lincoln Dr	"Voorhees , NJ 08043"								609-209-7767			GGraeff33@gmail.com						N									Gary		Graeff																		0				N	0	
+CUST	Jannett	14	1574108923	Josh Jannett	Whereabouts Unknown									609-969-3779									N									Josh		Jannett																		0				Y	0	
+CUST	JJ Gun Club	2	1574108922	Jersey Jerry Gun Club	William Thompson	204 S. Lakeside Dr.	"Medford, NJ 08055"							609-304-6806			whatsupbud@verizon.net						N								Jersey Jerry Gun Club	Scott		Stevenson																		0				N	0	
+CUST	Kumpell	10	1574108923	Dave Kumpel	1891 Rte. 70	"Southampton, NJ 08088"								609-744-5311									N									Dave		Kumpel																		0				N	0	
+CUST	Maron	15	1574108923	Cynthia Maron	70 Seneca Trail	"Medford Lakes, NJ 08055"								609-346-6285			cmaron@aol.com						N									Cynthia		Maron																		0				N	0	
+CUST	Mitchell	13	1574108923	Paul Mitchell	807 Eugenia Dr.	"Medford, NJ 08055"								215-870-6326	802 598 9216		pamitchell@att.net			Christopher Mitchell			N									Paul		Mitchell																		0				N	0	
+CUST	Moyer	3	1574108923	Sam Moyer	"Mt Laurel, NJ 08054"												moyerbase@aol.com						N									Sam		Moyer																		0				N	0	
+CUST	Mr. stacy	68	1729541330	Stacy															Stacy				N	Non						Mr.				Stacy																		0				N	0	
+CUST	Phil-CA	7	1574108923	Phil Roberts (CA)	522 Eayrestown Rd.	"Southampton, NJ 08088"								609-502-7922			philip.c.roberts@gmail.com						N								CA	Phil		Roberts																		0				N	0	
+CUST	Phil-PH	6	1574108923	Phil Roberts (PH)	Black Orchard Studios	522 Eayrestown Rd.	"Southampton, NJ 08088"							609-502-7922			philip.c.roberts@gmail.com						N								Black Orchard Studios	Phil		Roberts																		0				N	0	
+CUST	PinelandPlayers	18	1574108923	Pineland Players	PO Box 244	"Medford, NJ 08055"													Jay Thomas				N								Pineland Players	Pineland		Players																		0				N	0	
+CUST	Ronan	62	1683826076	Ronan																		Due on receipt	N	Non																												0				N	0	
+CUST	S. Coles Roberts	33	1588774226						181 Medford Leas Way	"Medford, NJ 08055"													N	Non								Dad																				0				Y	0	
+CUST	Sam Moyer	35	1591040962	Sam Moyer					"Mt. Laurel, NJ 08054"										Sam Moyer				N								Broom Man	Sam		Moyer																		0				N	0	
+CUST	Sean O'Brien	50	1626266591	Sean O'Brien															Sean O'Brien		Wholesale	Due on receipt	N									Sean		O'Brien																		0				N	0	
+CUST	Stacy	67	1729540802	Stacy																			N	Non																												0				N	0	
+CUST	Thomas	17	1574108923	Jay Thomas	132 Wahwahtaysee Tr.	"Medford Lakes, NJ 08055"								 609-744-7568	7-9-19 combo		JDTONE@gmail.com						N									Jay		Thomas																		0				N	0	
+CUST	Tmaron	20	1574108923	Timothy Maron	70 Seneca Trail	"Medford Lakes, NJ 08055"								609-410-3943			timinthepines@aol.com						N									Timothy		Maron																		0				N	0	
+CUST	Tyska	53	1634743884	Christopher Tyska	718 Pemberton Street	"Philadelphia, PA 19147"													Dan Tyska				N									Christopher		Tyska																		0				N	0	
+CUST	Wolf	16	1574108923	Bruce Wolf	PO Box 134	"Medford, NJ 08055"								609-654-5057									N									Bruce		 Wolf																		0				N	0	
+CUST	Wollick	19	1574108923	Charlie Wollick	12 Flemish Way	"Lumberton, NJ 08048"								609-864-2165									N									Charlie		Wollick																		0				N	0	
+!VTYPE	NAME	REFNUM	TIMESTAMP	HIDDEN
+VTYPE	Consultant	1	1573784235	N
+VTYPE	Service Providers	4	1573784235	N
+VTYPE	Suppliers	5	1573784235	N
+VTYPE	Supplies	3	1573784235	N
+VTYPE	Tax agency	2	1573784235	N
+!VEND	NAME	REFNUM	TIMESTAMP	PRINTAS	ADDR1	ADDR2	ADDR3	ADDR4	ADDR5	VTYPE	CONT1	CONT2	PHONE1	PHONE2	FAXNUM	EMAIL	NOTE	TAXID	LIMIT	TERMS	NOTEPAD	SALUTATION	COMPANYNAME	FIRSTNAME	MIDINIT	LASTNAME	CUSTFLD1	CUSTFLD2	CUSTFLD3	CUSTFLD4	CUSTFLD5	CUSTFLD6	CUSTFLD7	CUSTFLD8	CUSTFLD9	CUSTFLD10	CUSTFLD11	CUSTFLD12	CUSTFLD13	CUSTFLD14	CUSTFLD15	1099	HIDDEN	DELCOUNT
+VEND	ACH NJ Web Payment	27	1583425252		ACH NJ Web Payment																																					N	N	0
+VEND	Allen's Oil and Propane	32	1588773744		Allen's Oil and Propane																																					N	N	0
+VEND	Carol A. Roberts	38	1594235576		Carol A. Roberts																																					N	N	0
+VEND	Cherry Valley Tractor	64	1685986201		Cherry Valley Tractor																																					N	N	0
+VEND	CitiCard	43	1602888920		CitiCard																																					N	N	0
+VEND	Diamond M Lumber Co.	40	1600125118		Diamond M Lumber Co.																																					N	N	0
+VEND	Enoch Gererd	70	1734120409		Enoch Gererd																																					N	N	0
+VEND	Estate of S. Coles Robrts	45	1605106014		Estate of S. Coles Robrts																																					N	N	0
+VEND	Farm Family	23	1580780603	Farm Family	Farm Family						John Tajc												Farm Family																			N	N	0
+VEND	Frugal Fix-it Fellas	63	1683826911	"Frugal Fix-it Fellas, Inc."	Frugal Fix-it Fellas																		"Frugal Fix-it Fellas, Inc."																			N	N	0
+VEND	Fulton Bank	69	1734107459		Fulton Bank																																					N	N	0
+VEND	Grainger	47	1606752662		Grainger																																					N	N	0
+VEND	Hampton Lakes Emergency Squad	42	1601486017		Hampton Lakes Emergency Squad																																					N	N	0
+VEND	Hampton Lakes Vol. Fire Company	65	1688999775		Hampton Lakes Vol. Fire Company																																					N	N	0
+VEND	Harbor Freight	55	1641954513		Harbor Freight																																					N	N	0
+VEND	Klatzkin & Co	26	1583425183	Klatzkin & Co.	Klatzkin & Co	1670 Whitehorse-Hamilton Sq. Rd.	"Hamilton, NJ 08690"				Arlene		609-890-9189										Klatzkin & Co.																			N	N	0
+VEND	Lowes Business Acct.	37	1591041492		Lowes Business Acct.																																					N	N	0
+VEND	Merrits Gulf Oil	60	1673485935	Gulf Oil Medford (Merrits)	Merrits Gulf Oil	Troy Haines					Troy Haines											Mr.	Merrits Gulf Oil	Troy		Haines																N	N	0
+VEND	NJ Ag Society	30	1587653571		NJ Ag Society	1200 Florence Columbus Rd.	"Bordentown, NJ 08505"																																			N	N	0
+VEND	NJ Farm Bureau	41	1601485934		NJ Farm Bureau																																					N	N	0
+VEND	NJMVC	28	1585078776		NJMVC																																					N	N	0
+VEND	Paul Gerike	48	1609350829																																							N	N	0
+VEND	PSEG	21	1580314753	PSEG	PSE&G	PO Box 14444	"New Brunswick, NJ 08906-4444"	US					1-800-553-7734			pseg.com/myaccount					Angel's house\n500 Eayrestown Rd.		PSEG																			N	N	0
+VEND	Republic Bank	46	1605106766		Republic Bank																																					N	N	0
+VEND	Sears Credit Card	44	1603501624		Sears Credit Card																																					N	N	0
+VEND	State of NJ	52	1628877875		State of NJ																																					N	N	0
+VEND	Tractor Supply	54	1641954442		Tractor Supply																																					N	N	0
+VEND	Visa-Republic Bank Credit Card	49	1612885731		Visa-Republic Bank Credit Card																																					N	N	0
+VEND	Wal-Mart	61	1673658731		Wal-Mart																																					N	N	0
+VEND	Wells Fargo - Carol CC	31	1587653792		Wells Fargo - Carol CC`																																					N	N	0
+VEND	Wells Fargo - Sid CC	24	1580781342	Wells Fargo - Sid CC	Wells Fargo - Sid CC												-6855		"-8,000.00"				Wells Fargo - Sid CC																			N	N	0
+VEND	Wells Fargo -Sidl CC	36	1591041343		Wells Fargo -Sidl CC																																					N	N	0
+!SALESTAXCODE	CODE	REFNUM	TIMESTAMP	HIDDEN	DESC	TAXABLE
+SALESTAXCODE	Tax	1	1573783833	N	Taxable Sales	Y
+SALESTAXCODE	Non	2	1573783833	N	Non-Taxable Sales	N
